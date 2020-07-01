@@ -23,3 +23,239 @@ DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Fink
 DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
 DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
 DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Karl Saygan', 'guardians': ['Heather Bledsoe'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Matt Gill', 'guardians': ['Charles Gill', 'Sylvia Gill'], 'height': 40, 'experience': False}
+DEBUG:root:{'name': 'Sammy Adams', 'guardians': ['Jeff Adams', 'Gary Adams'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Chloe Alaska', 'guardians': ['David Alaska', 'Jamie Alaska'], 'height': 47, 'experience': False}
+DEBUG:root:{'name': 'Bill Bon', 'guardians': ['Sara Bon', 'Jenny Bon'], 'height': 43, 'experience': True}
+DEBUG:root:{'name': 'Joe Kavalier', 'guardians': ['Sam Kavalier', 'Elaine Kavalier'], 'height': 39, 'experience': False}
+DEBUG:root:{'name': 'Phillip Helm', 'guardians': ['Thomas Helm', 'Eva Jones'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Les Clay', 'guardians': ['Wynonna Brown'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Sal Dali', 'guardians': ['Gala Dali'], 'height': 41, 'experience': False}
+DEBUG:root:{'name': 'Suzane Greenberg', 'guardians': ['Henrietta Dumas'], 'height': 44, 'experience': True}
+DEBUG:root:{'name': 'Jill Tanner', 'guardians': ['Mark Tanner'], 'height': 36, 'experience': True}
+DEBUG:root:{'name': 'Arnold Willis', 'guardians': ['Claire Willis'], 'height': 43, 'experience': False}
+DEBUG:root:{'name': 'Herschel Krustofski', 'guardians': ['Hyman Krustofski', 'Rachel Krustofski'], 'height': 45, 'experience': True}
+DEBUG:root:{'name': 'Eva Gordon', 'guardians': ['Wendy Martin', 'Mike Gordon'], 'height': 45, 'experience': False}
+DEBUG:root:{'name': 'Ben Finkelstein', 'guardians': ['Aaron Lanning', 'Jill Finkelstein'], 'height': 44, 'experience': False}
+DEBUG:root:{'name': 'Joe Smith', 'guardians': ['Jim Smith', 'Jan Smith'], 'height': 42, 'experience': True}
+DEBUG:root:{'name': 'Diego Soto', 'guardians': ['Robin Soto', 'Sarika Soto'], 'height': 41, 'experience': True}
+DEBUG:root:{'name': 'Kimmy Stein', 'guardians': ['Bill Stein', 'Hillary Stein'], 'height': 41, 'experience': False}
+DEBUG:root:Number of experienced players: 3.0
+DEBUG:root:Number of experienced players: 3

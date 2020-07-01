@@ -3,9 +3,18 @@ import logging
 
 logging.basicConfig(filename='app.log', level=logging.DEBUG)
 
+def add_player_to_team(player, team):
+    player['team'] = team
+
+
 def balance_teams(teams, players):
     """ Distributes players to teams """
-
+    # Find number of players per team
+    team_size = len(players) / len(teams)
+    all_players = [player["name"] for player in players]
+    for team in teams:
+        while number_players_on_team(team) < team_size:
+            team["roster"].append(all_players.pop())
 
 
 def convert_height_to_int(str):
@@ -32,6 +41,13 @@ Here are your choices:
 """)
 
 
+def display_teams(teams):
+    for number, team in enumerate(teams, 1):
+        print(f'  {number}) {team["name"]}')
+
+def display_team_stats(team_name, players):
+    team_players = [player["name"] for player in players if player["team"]  == team_name].join(", ")
+
 def clean_data(players):
     return [clean_player_data(player) for player in players]
 
@@ -46,12 +62,37 @@ def clean_player_data(player):
     clean_player_data['height'] = convert_height_to_int(player['height'])
     # Change experienced to true false
     clean_player_data['experience'] = convert_exp_to_bool(player['experience'])
-    logging.debug(clean_player_data)
     return clean_player_data
 
 
+def get_option_from_user(integer):
+    while True:
+        response = input("Please select a number from above: ")
+        try:
+            response = int(response)
+        except ValueError:
+            print("Please only enter the integer")
+            continue
+        if response not in range(1, integer+1):
+            print("Please only select from the numbers above.")
+            continue
+        else:
+            break
+    return response
+
+def number_players_on_team(team):
+    return len(team['roster'])
+
+
 if __name__ == "__main__":
-    teams = constants.TEAMS
+    teams = [{"name" : team, 
+              "roster" : []} for team in constants.TEAMS]
     players = clean_data(constants.PLAYERS)
-    print("Basketball Team States Tool by SCCroix\n")
+    balance_teams(teams, players)
+    print("\nBasketball Team Stats Tool by SCCroix")
     display_menu()
+    if get_option_from_user(2) == 1:
+        display_teams(teams)
+
+    else:
+        print("Goodbye")
