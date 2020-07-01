@@ -11,6 +11,7 @@ def balance_teams(teams, players):
     """ Distributes players to teams """
     # Find number of players per team
     team_size = len(players) / len(teams)
+    # Distribute players to teams
     all_players = [player["name"] for player in players]
     for team in teams:
         while number_players_on_team(team) < team_size:
