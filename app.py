@@ -6,6 +6,12 @@ logging.basicConfig(filename='app.log', level=logging.DEBUG)
 def add_player_to_team(player, team):
     player['team'] = team
 
+def average_height_of_team(team, players):
+    heights = []
+    for player in team_players(team, players):
+        heights.append(player["height"])
+    return sum(heights) / len(heights)
+
 
 def balance_teams(teams, players):
     """ Distributes players to teams """
@@ -34,7 +40,7 @@ def convert_guardians_to_list(str):
 
 
 def display_menu():
-    print("\n ____ Menu ____ \n")
+    print("\n ____ Main Menu ____ \n")
     print("""
 Here are your choices:
   1) Display Team Stats
@@ -46,10 +52,17 @@ def display_teams(teams):
     for number, team in enumerate(teams, 1):
         print(f'  {number}) {team["name"]}')
 
-def display_team_stats(team_index, team):
-    print("Hello")
-    #print(f'{teamsteam_name} stats')
-    #team_players = [player["name"] for player in players if player["team"]  == team_name].join(", ")]
+def display_team_stats(team_index, teams):
+    team = teams[team_index]
+    print(f'{team["name"]} stats')
+    print(f'Total Players: {len(team["roster"])}')
+
+    print(f'Players on team: {", ".join(team["roster"])}')
+
+    print(f'Team Guardians: {", ".join(team_guardians(team, players))}')
+
+    print(f'Average height: {average_height_of_team(team, players)}')
+    
 
 def clean_data(players):
     return [clean_player_data(player) for player in players]
@@ -84,6 +97,7 @@ def get_option_from_user(integer):
     return response - 1
 
 def get_team(teams):
+    #Return index of team
     print("Here are the teams:")
     display_teams(teams)
     integer = len(teams)
@@ -106,6 +120,21 @@ def number_players_on_team(team):
     return len(team['roster'])
 
 
+def team_players(team, players):
+    players_on_team = []
+    for player in players:
+        if player['name'] in team['roster']:
+            players_on_team.append(player)
+    return players_on_team
+        
+def team_guardians(team, players):
+    guardians = set()
+    for player in team_players(team, players):
+        for guardian in player["guardians"]:
+            guardians.add(guardian)
+    return list(guardians)
+
+
 if __name__ == "__main__":
     #setup data
     teams = [{"name" : team, 
@@ -115,8 +144,10 @@ if __name__ == "__main__":
 
     #start main loop
     print("\nBasketball Team Stats Tool by SCCroix")
-    display_menu()
-    if get_option_from_user(2) == 0:
-        display_team_stats(get_team(teams), teams)
-    else:
-        print("Goodbye")
+    while True:
+        display_menu()
+        if get_option_from_user(2) == 0:
+            display_team_stats(get_team(teams), teams)
+        else:
+            print("Goodbye")
+            break
