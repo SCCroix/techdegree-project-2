@@ -47,7 +47,8 @@ def display_teams(teams):
         print(f'  {number}) {team["name"]}')
 
 def display_team_stats(team_name, players):
-    team_players = [player["name"] for player in players if player["team"]  == team_name].join(", ")
+    print(f'{team_name} stats')
+    #team_players = [player["name"] for player in players if player["team"]  == team_name].join(", ")]
 
 def clean_data(players):
     return [clean_player_data(player) for player in players]
@@ -81,6 +82,24 @@ def get_option_from_user(integer):
             break
     return response
 
+def get_team(teams):
+    print("Here are the teams:")
+    display_teams(teams)
+    integer = len(teams)
+    while True:
+        response = input("Please select a number from above: ")
+        try:
+            response = int(response)
+        except ValueError:
+            print("Please only enter the integer")
+            continue
+        if response not in range(1, integer+1):
+            print("Please only select from the numbers above.")
+            continue
+        else:
+            break
+
+
 def number_players_on_team(team):
     return len(team['roster'])
 
@@ -93,7 +112,7 @@ if __name__ == "__main__":
     print("\nBasketball Team Stats Tool by SCCroix")
     display_menu()
     if get_option_from_user(2) == 1:
-        display_teams(teams)
+        get_team(teams)
 
     else:
         print("Goodbye")
