@@ -46,8 +46,9 @@ def display_teams(teams):
     for number, team in enumerate(teams, 1):
         print(f'  {number}) {team["name"]}')
 
-def display_team_stats(team_name, players):
-    print(f'{team_name} stats')
+def display_team_stats(team_index, team):
+    print("Hello")
+    #print(f'{teamsteam_name} stats')
     #team_players = [player["name"] for player in players if player["team"]  == team_name].join(", ")]
 
 def clean_data(players):
@@ -80,7 +81,7 @@ def get_option_from_user(integer):
             continue
         else:
             break
-    return response
+    return response - 1
 
 def get_team(teams):
     print("Here are the teams:")
@@ -98,6 +99,7 @@ def get_team(teams):
             continue
         else:
             break
+    return response - 1
 
 
 def number_players_on_team(team):
@@ -105,14 +107,16 @@ def number_players_on_team(team):
 
 
 if __name__ == "__main__":
+    #setup data
     teams = [{"name" : team, 
               "roster" : []} for team in constants.TEAMS]
     players = clean_data(constants.PLAYERS)
     balance_teams(teams, players)
+
+    #start main loop
     print("\nBasketball Team Stats Tool by SCCroix")
     display_menu()
-    if get_option_from_user(2) == 1:
-        get_team(teams)
-
+    if get_option_from_user(2) == 0:
+        display_team_stats(get_team(teams), teams)
     else:
         print("Goodbye")
