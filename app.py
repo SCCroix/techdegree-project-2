@@ -54,7 +54,7 @@ def display_teams(teams):
 
 def display_team_stats(team_index, teams):
     team = teams[team_index]
-    print(f'{team["name"]} stats')
+    print(f'\n{team["name"]} stats')
     print(f'Total Players: {len(team["roster"])}')
 
     print(f'Players on team: {", ".join(team["roster"])}')
@@ -148,6 +148,7 @@ if __name__ == "__main__":
         display_menu()
         if get_option_from_user(2) == 0:
             display_team_stats(get_team(teams), teams)
+            input("\nPress Enter to Continue...")
         else:
             print("Goodbye")
             break
