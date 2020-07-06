@@ -1,10 +1,8 @@
 import constants
-import logging
-
-logging.basicConfig(filename='app.log', level=logging.DEBUG)
 
 def add_player_to_team(player, team):
     player['team'] = team
+
 
 def average_height_of_team(team, players):
     heights = []
@@ -18,10 +16,12 @@ def balance_teams(teams, players):
     # Find number of players per team
     team_size = len(players) / len(teams)
     # Distribute players to teams
-    all_players = [player["name"] for player in players]
+    exp_players = [player["name"] for player in players if player['experience'] == True]
+    new_players = [player["name"] for player in players if player['experience'] == False]
     for team in teams:
         while number_players_on_team(team) < team_size:
-            team["roster"].append(all_players.pop())
+            team["roster"].append(new_players.pop())
+            team["roster"].append(exp_players.pop())
 
 
 def convert_height_to_int(str):
@@ -52,21 +52,17 @@ def display_teams(teams):
     for number, team in enumerate(teams, 1):
         print(f'  {number}) {team["name"]}')
 
+
 def display_team_stats(team_index, teams):
     team = teams[team_index]
     print(f'\n{team["name"]} stats\n')
     print(f'Total Players: {len(team["roster"])}')
     print(f'New Players: {num_new_players(team)}')
     print(f'Experienced Players: {num_exp_players(team)}')
-
     print(f'Players on team:\n   {", ".join(team["roster"])}')
-
     print(f'Team Guardians:\n   {", ".join(team_guardians(team, players))}')
-
     print(f'Average height: {average_height_of_team(team, players)}')
 
-
-    
 
 def clean_data(players):
     return [clean_player_data(player) for player in players]
@@ -123,12 +119,14 @@ def get_team(teams):
 def number_players_on_team(team):
     return len(team['roster'])
 
+
 def num_new_players(team):
     count = 0
     for player in team_players(team, players):
         if player['experience'] == False:
             count += 1
     return count
+
 
 def num_exp_players(team):
     count = 0
@@ -144,7 +142,8 @@ def team_players(team, players):
         if player['name'] in team['roster']:
             players_on_team.append(player)
     return players_on_team
-        
+
+
 def team_guardians(team, players):
     guardians = set()
     for player in team_players(team, players):
