@@ -54,14 +54,18 @@ def display_teams(teams):
 
 def display_team_stats(team_index, teams):
     team = teams[team_index]
-    print(f'\n{team["name"]} stats')
+    print(f'\n{team["name"]} stats\n')
     print(f'Total Players: {len(team["roster"])}')
+    print(f'New Players: {num_new_players(team)}')
+    print(f'Experienced Players: {num_exp_players(team)}')
 
-    print(f'Players on team: {", ".join(team["roster"])}')
+    print(f'Players on team:\n   {", ".join(team["roster"])}')
 
-    print(f'Team Guardians: {", ".join(team_guardians(team, players))}')
+    print(f'Team Guardians:\n   {", ".join(team_guardians(team, players))}')
 
     print(f'Average height: {average_height_of_team(team, players)}')
+
+
     
 
 def clean_data(players):
@@ -118,6 +122,20 @@ def get_team(teams):
 
 def number_players_on_team(team):
     return len(team['roster'])
+
+def num_new_players(team):
+    count = 0
+    for player in team_players(team, players):
+        if player['experience'] == False:
+            count += 1
+    return count
+
+def num_exp_players(team):
+    count = 0
+    for player in team_players(team, players):
+        if player['experience'] == True:
+            count += 1
+    return count
 
 
 def team_players(team, players):
